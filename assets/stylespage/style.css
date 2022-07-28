@@ -1,0 +1,105 @@
+ul.inline > li {
+  display: inline;
+  text-align: center;
+}
+.reviews {display: inline-block;
+  background-color: #f9fafb;
+  width: 672px;
+  height: 360px;
+  padding: 1px;
+  margin: 3px;
+}
+ul.block > li {
+  display: inline-block;
+  width: 655px;
+  padding: 2px; margin-bottom: 200px;
+}
+
+ul li a {
+  display: inline;
+  text-align: center;
+}
+.button {
+  background-color: #7f56d9;
+  border: none;
+  color: aliceblue;
+  padding: 15px 32px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+}
+.blogs {width: 655px; height: auto;}
+.flex-container {display: flex; flex-direction: row; justify-content: space-around; align-items: center; align-content: stretch;}
+
+.flex-container2 {display: flex; flex-direction: row; justify-content: space-between; align-items: stretch; align-content: stretch;}
+.image {
+  width: 48px;
+  height: 48px;
+}
+.para {
+  position: absolute;
+  height: 120px;
+  left: 0%;
+  right: 72.67%;
+  top: 321px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.para2 { display: block;
+  width: 681px;
+  height: 120px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px; margin-left: 30%; margin-bottom: 50px; 
+}
+.bottom { left: 30%;}
+.para3 {height: 56px; width: 637px;}
+
+
+.mainimage { position:relative; width: 800px;  left: 576px; height: 699px; margin-bottom: 200px;}
+.element {  position: absolute; width: 600px;  height: 304px; top: 700px; left: 11%; right: 46%;  }
+.image2 { position:relative; width: 800px; left: 576px; margin-top: 100px; margin-bottom: 200px;}
+.element3 { position: absolute;  top: 3000px; left: 400px;}
+.project {
+  width: 1376px;
+  margin: 20px; margin-bottom: 50px;
+}
+.title {display:block; width: 351px; top: 4245px; clear: both;}
+h1,
+h2 {
+  font-family: "Lora", "Times New Roman", sans-serif;
+}
+
+h1 {
+  height: 270px;
+  width: 961px;
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 90px;
+  letter-spacing: 1.5px;
+}
+a:hover {
+  color: indianred;
+}
+
+ul.inline-block > li:last-child:hover {
+  color: coral;
+}
+
+.motto {color: #6941c6;
+  text-decoration: underline;
+  font-weight: bolder; }
+
+.logo { width: 95; margin: 10 px;}
+ul.footer >li {display: inline; text-align: center;}
+
+
+
