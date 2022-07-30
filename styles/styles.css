@@ -10,10 +10,10 @@ div.column {
   float: left;
   height: 300px;
 }
-div.side {
+div.side { display: flex;
   width: 30%;
   background-color: lightgreen;
-  text-align: center;
+  justify-content: center;
 }
 div.main {
   width: 70%;
@@ -21,13 +21,11 @@ div.main {
   flex-wrap: wrap;
   background-color: lightyellow;
 }
-div.main > div {
+.bottompart, .bottompart2 {
   display: flex;
   flex-flow: row wrap;
-  padding: 20px 60px;
+  padding: 20px 60px; 
   background-color: navajowhite;
-  justify-content: space-between;
-  align-items: flex-end;
   align-items: center;
   justify-content: center;
 }
@@ -39,12 +37,11 @@ div.main > div {
 }
 .bottompart {
   display: flex;
-  width: 450px;
-  margin: 5px;
-}
+  width: 49%; margin: 0.5%;  }
+
 .bottompart2 {
   display: flex;
-  width: 910px;
+  width: 100%;
   margin: 5px;
 }
 .footer {
@@ -52,10 +49,11 @@ div.main > div {
   flex-flow: row wrap;
   justify-content: space-around;
   background-color: lightgray;
-  height: 70px;
   align-items: center;
 }
+
+.footer > div { display: flex; background-color: rgb(231, 231, 228); min-height: 50px; flex: 0 1 auto; align-items: center;}
 .header {
   background-color: lightgray;
-  text-align: center;
+  text-align: center; height: 50px; 
 }
